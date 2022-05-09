@@ -1,0 +1,51 @@
+menu {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14.43px;
+  box-shadow: 8.66px 3.61px 72.17px 0px rgba(219, 219, 241, 0.5);
+  width: 1312px;
+  height: 2.5rem;
+  margin: 40px auto 0 auto;
+  position: relative;
+}
+.logo {
+  font-size: 17px;
+  padding-left: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+a:hover {
+  color: blueviolet;
+  border-bottom: 3px solid blueviolet;
+}
+.first-ball {
+  width: 10px;
+  position: absolute;
+  top: 15px;
+}
+.second-ball {
+  width: 6px;
+  position: absolute;
+  top: 24px;
+  left: 35px;
+}
+.third-ball {
+  width: 4px;
+  position: absolute;
+  top: 27px;
+  left: 45px;
+}
+.log-in {
+  width: 10rem;
+  background: rgb(108, 108, 170);
+  padding: 0.5rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
